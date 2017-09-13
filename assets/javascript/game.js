@@ -8,7 +8,7 @@ var losses = 0;
 function runGame() {
     var counter = 0;
 // Randomly Generated Target Number
-    var targetNumber = Math.floor((Math.random() * 120) + 19);
+    var targetNumber = Math.floor(Math.random() * ((120-19)+1) + 19);
     $("#numberToMatch").text(targetNumber);
 // Four Generated Crystal Values
     var numberOptions = [];
