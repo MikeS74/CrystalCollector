@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector</title>
+    <link href='https://fonts.googleapis.com/css?family=Monsieur La Doulaise' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Crystals Collector</h1>
+<!-- Game Instructions -->
+    <div class="instructions1">
+        <p>You will be given a random number at the start of each game.</p>
+        <br>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+    </div>
+    <div class="instructions2">
+        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+        <br>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time the game starts, the value of the crystals will change.</p>
+    </div>
+<!-- Crystal Images -->
+    <div class="imagesBkgd">
+        <div id="number-to-match">
+            <p id="numberToMatch">00</p>
+            <p id="generated">NUMBER TO MATCH</p>
+        </div><img class="crystalsBorder" src="assets/images/crystals-border.png" alt="Crystal 1">
+        <div class="fourCrystals">
+            <div class="imageContainer"> <img id="crystal1" src="assets/images/crystal1.png" alt="Crystal 1"> <img id="crystal2" src="assets/images/crystal2.png" alt="Crystal 2"> <img id="crystal3" src="assets/images/crystal3.png" alt="Crystal 3"> <img id="crystal4" src="assets/images/crystal4.png" alt="Crystal 4">
+                <div id="total-score">
+                    <p id="your-score">YOUR TOTAL SCORE</p>
+                    <p id="totalScore">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Win-Loss Status -->
+    <div class="wins-losses">
+        <p id="wins">WINS:</p>
+        <p id="winsNumber">0</p>
+        <p id="losses">LOSSES:</p>
+        <p id="lossesNumber">0</p>
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

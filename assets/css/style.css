@@ -1,0 +1,101 @@
+body {
+    background-image: url(../images/black-textured-bkgd.png);
+    font-family: 'Questrial';
+    font-size: 18px;
+    color: grey;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Monsieur La Doulaise';
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+#number-to-match {
+    width: 610px;
+    position: absolute;
+    top: 220px;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+#generated,
+#your-score {
+    font-size: 18px;
+}
+
+#total-score {
+    text-align: center;
+    font-size: 40px;
+    margin-right: 15px;
+    position: relative;
+    top: 10px;
+    cursor: auto;
+}
+
+.wins-losses {
+    font-size: 26px;
+    width: 200px;
+    line-height: 30px;
+    position: relative;
+    bottom: 225px;
+}
+
+#wins {
+    float: left;
+    position: relative;
+    margin-right: 5px;
+}
+
+#winsNumber {
+    position: relative;
+}
+
+#losses {
+    position: relative;
+    float: left;
+    margin-right: 5px;
+}
+
+#lossesNumber {
+    position: relative;
+}
+
+.imagesBkgd {
+    width: 625px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 35px;
+}
+
+.fourCrystals {
+    height: 150px;
+    position: relative;
+    bottom: 260px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.instructions1 {
+    width: 350px;
+    float: left;
+}
+
+.instructions2 {
+    width: 350px;
+    float: right;
+    text-align: right;
+}
+
+.statusDisp {
+    position: relative;
+    left: 175px;
+    bottom: 48px;
+}
